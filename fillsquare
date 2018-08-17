@@ -1,0 +1,26 @@
+package applet;
+import java.applet.*;
+
+import java.awt.*;
+
+public class fillsquare extends Applet {
+
+	
+
+public void paint(Graphics g){
+
+	Color PURPLE =new Color(255,0,255);
+
+	g.setColor(PURPLE);
+
+	g.drawRect(10,10,50,50);
+
+	g.fillRect(10,10,50,50);
+
+
+
+	}
+
+
+
+}
